@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+.header {
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+    transform: translateY(12px);
+}
+
+.user-info .info {
+    padding-right: 10px;
+}
+
+.user-info .info p {
+    margin: 0;
+}
+
+.user-info .info .name-by {
+    font-style: italic;
+    color: #BABABA;
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+.user-info .info .name {
+    float: right;
+    font-size: 14px;
+    color: #000;
+
+}
+
+.user-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo img {
+    max-width: 50%;
+    height: auto;
+}
+
+
+/* SLIDER-BAR */
+.slider-bar {
+    width: 100%;
+    height: 300px;
+    background-color: #29B363;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.slider-bar .info-slider {
+    transform: translateY(-30%);
+}
+
+.slider-bar .context {
+    font-weight: bold;
+}
+
+/* CONTENT */
+
+.content {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.content .not-joker {
+    text-align: center;
+}
+
+.content .description {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 2;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.content .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.action .action-button {
+    border-top: 1px solid #EEEEEE;
+    padding: 50px;
+}
+
+.action button {
+    padding: 16px 76px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+
+}
+
+.action button {
+    margin-right: 20px;
+    background-color: #2C7EDB;
+}
+
+.action button:last-child {
+    margin-right: 0;
+    background-color: #29B363;
+}
+
+/* FOOTER */
+.footer {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    padding: 30px 0px 20px 0px;
+    border-top: 1px solid #ccc
+}
+
+.footer .description {
+    line-height: 1.5;
+}
+
+.footer .description>p {
+    margin: 1px;
+    font-size: 14px;
+    opacity: 0.5;
+}
